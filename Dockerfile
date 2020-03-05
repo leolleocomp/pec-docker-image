@@ -19,7 +19,7 @@ RUN mkdir /home/PEC \
 
 WORKDIR /home/PEC
 
-RUN wget https://arquivos.bridge.ufsc.br/AB/PEC/3.2.18/treinamento/instalador/Instalador-eSUS-AB-PEC-3.2.18-Treinamento-Linux.zip -O pec.zip \
+RUN wget https://arquivos.bridge.ufsc.br/AB/PEC/orjfjyYvJadDUkomJvz/3.2.22/treinamento/instalador/Instalador-eSUS-AB-PEC-3.2.22-Treinamento-Linux.zip -O pec.zip \
     && unzip pec.zip -d /home/PEC/install
 
 WORKDIR /home/PEC/install
