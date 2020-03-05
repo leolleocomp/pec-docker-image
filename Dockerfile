@@ -10,7 +10,7 @@ ENV PEC_FOLDER mkdir -p /var/lock/subsys/ \
     && sh /opt/e-SUS/jboss-as-7.2.0.Final/bin/init.d/jboss-as-standalone-lsb.sh restart
 
 ENV SEPARATOR -
-ENV INFO_IMAGE "To start the PEC3.2.2 run: sh ${PEC_FOLDER} start"
+ENV INFO_IMAGE "To start the PEC3.2.22 run: sh ${PEC_FOLDER} start"
 
 RUN mkdir /home/PEC \
     && apt-get update \
